@@ -1,0 +1,10 @@
+CPU	Intel(R) Xeon(R) Silver 4210 
+GPU	NO
+RAM	80.0GB 
+
+tensorflow==2.7.0       
+keras==2.7.0
+numpy==1.24.3
+pandas==2.0.2
+scikit-learn==0.24.1
+python == 3.9

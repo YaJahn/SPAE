@@ -1,0 +1,24 @@
+1. Documentation for Pseudotime Prelabels Folders
+
+This document explains the contents of the "1_pseudotime_prelabels" through "10_pseudotime_prelabels" folders.
+
+Overview
+Each folder contains the results generated from running SPAE  across ten iterations.   
+The outputs include: Cell Cycle Pseudotime and Predicted Labels (Labels derived from the pseudotime，run pseudotime_to_label.R).
+
+
+2. Documentation for "Results of Ten Iterations" Folder
+
+Overview
+The "results of ten iterations" folder contains Excel files named "results of ten iterations_1.xlsx" through "results of ten iterations_10.xlsx". Each file represents the evaluation results for one iteration of comparing predicted labels against ground truth labels.
+
+
+3. Documentation for "Average Results of 100 Runs.xlsx"
+
+Overview
+The "Average Results of 100 Runs.xlsx" file contains the averaged performance metrics of SPAE  calculated over 100 runs. The results are grouped into 10 sets, with each set representing the average of 10 consecutive runs(run prelabels to seven evaluation indicators.pyprelabels to seven evaluation indicators.py).
+
+4. SPAE master
+1) run mESCs_2805.py
+2) run pseudotime_to_label.R
+3) run prelabels to seven evaluation indicators.pyprelabels to seven evaluation indicators.py
