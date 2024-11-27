@@ -4,7 +4,7 @@ from scipy.spatial.transform import rotation
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
 import numpy as np
-# import cyclum.tuning
+
 import tensorflow.compat.v1 as tf
 
 tf.disable_eager_execution()
@@ -34,9 +34,9 @@ Y = preprocessing.scale(raw_Y)
 N, D = Y.shape
 print('After filtering %d Cells (instances) x %d Genes (features)' % (N, D))
 
-import cyclum.models
+import spae.models
 
-model = cyclum.models.AutoEncoder(input_width=Y.shape[1],
+model = spae.models.AutoEncoder(input_width=Y.shape[1],
                                   encoder_width=[30, 20],
                                   # encoder_width=[361, 20],
                                   encoder_depth=2,
